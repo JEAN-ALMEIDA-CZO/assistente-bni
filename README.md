@@ -1,5 +1,7 @@
 # Assistente BNI
-
+<p align="center">
+  <img src="readme-banner.png" alt="Assistente BNI" width="100%">
+</p>
 **Iniciativa pessoal e independente** para membros BNI de qualquer cadeira.
 
 > Não é produto oficial do BNI. Ver [aviso legal](#aviso-legal).
@@ -9,7 +11,7 @@ Agenda 1a1s, gera pitchs de 30 segundos, gerencia referências, Power Team, kit 
 [![GitHub](https://img.shields.io/badge/GitHub-JEAN--ALMEIDA--CZO-181717?logo=github)](https://github.com/JEAN-ALMEIDA-CZO)
 [![Instagram](https://img.shields.io/badge/Instagram-@jean.almeida.czo-E4405F?logo=instagram)](https://instagram.com/jean.almeida.czo)
 [![Portfólio](https://img.shields.io/badge/Portfólio-athos.app.br-CF2030)](https://portifolio.athos.app.br)
-[![Formato](https://img.shields.io/badge/Base-v4-CF2030)](#)
+[![Formato](https://img.shields.io/badge/Base-v1-CF2030)](#)
 [![Licença](https://img.shields.io/badge/Uso-Livre%20para%20membros%20BNI-success)](#créditos)
 
 ---
@@ -19,10 +21,8 @@ Agenda 1a1s, gera pitchs de 30 segundos, gerencia referências, Power Team, kit 
 | Recurso | URL |
 |--------|-----|
 | **Site / apresentação** | [jean-almeida-czo.github.io/assistente-bni](https://jean-almeida-czo.github.io/assistente-bni/) |
-| **Gerador da base (formulário)** | […/gerador.html](https://jean-almeida-czo.github.io/assistente-bni/gerador.html) |
+| **Gerador da base (formulário)** | [Gerador Base de Dados](https://jean-almeida-czo.github.io/assistente-bni/gerador.html) |
 | **Repositório** | [github.com/JEAN-ALMEIDA-CZO/assistente-bni](https://github.com/JEAN-ALMEIDA-CZO/assistente-bni) |
-
-> Após publicar o repositório e ativar o GitHub Pages (pasta `/docs`), esses links ficam ativos.
 
 ---
 
@@ -38,7 +38,7 @@ O **Assistente BNI** é uma skill (arquivo de lógica) para IAs que leem Markdow
 - Kit da reunião, dashboard (Givers Gain) e portfólio  
 - Visitante na reunião e menu de ajuda  
 
-**Universal:** funciona para contabilidade, advocacia, marketing, obras, saúde ou qualquer outra cadeira. O conteúdo vem sempre da ficha do membro na base de dados — a skill não assume uma especialidade fixa.
+**Universal:** funciona para qualquer cadeira. O conteúdo vem sempre da ficha do membro na base de dados — a skill não assume uma especialidade fixa.
 
 ---
 
@@ -75,8 +75,8 @@ chmod +x install.sh
 
 ### Manual
 
-1. Baixe `SKILL.md` e `base-de-dados.md` deste repositório.  
-2. Preencha a base no [**gerador online**](https://jean-almeida-czo.github.io/assistente-bni/gerador.html) e substitua o arquivo.  
+1. Baixe `SKILL.md` deste repositório.  
+2. Preencha a base no [**gerador online**](https://jean-almeida-czo.github.io/assistente-bni/gerador.html) baixe o arquivo.  
 3. Mantenha **os dois arquivos na mesma pasta**.  
 4. Conecte essa pasta à sua IA (veja abaixo).  
 5. No chat, digite: **`bni`**.
@@ -104,7 +104,7 @@ chmod +x install.sh
 2. Anexe ou cole `base-de-dados.md` no conhecimento / contexto.  
 3. Use o comando `bni` no chat.
 
-Sem a base preenchida, use o comando **`configurar`** ou o [gerador](https://jean-almeida-czo.github.io/assistente-bni/gerador.html).
+Sem a base preenchida, use o comando **`configurar`** ou crie o arquivo base no [gerador](https://jean-almeida-czo.github.io/assistente-bni/gerador.html).
 
 ---
 
@@ -154,16 +154,6 @@ Sem a base preenchida, use o comando **`configurar`** ou o [gerador](https://jea
 
 ---
 
-## GitHub Pages
-
-Para publicar o site e o gerador:
-
-1. Repositório público: `JEAN-ALMEIDA-CZO/assistente-bni`  
-2. **Settings → Pages →** Source: branch `main`, pasta **`/docs`**  
-3. Site: `https://jean-almeida-czo.github.io/assistente-bni/`  
-4. Gerador: `https://jean-almeida-czo.github.io/assistente-bni/gerador.html`
-
----
 
 ## Estrutura do repositório
 

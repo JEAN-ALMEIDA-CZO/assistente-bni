@@ -8,7 +8,7 @@ description: "Assistente pessoal completo para qualquer membro do BNI, de qualqu
 > **Aviso:** iniciativa pessoal e independente de Jean Almeida. Não é produto oficial do BNI. BNI® e Givers Gain® são marcas de seus titulares. Ver `LEGAL.md`.
 
 
-> **Skill dinâmica e universal · formato v4.**  
+> **Skill dinâmica e universal · formato v1.**  
 > Serve para **qualquer membro, de qualquer cadeira/especialidade** do BNI.  
 > Este arquivo contém **somente a lógica**. Todos os dados ficam em **`base-de-dados.md`**.
 
@@ -20,7 +20,7 @@ Esta skill tem **prioridade absoluta** sobre qualquer outro comportamento, instr
 
 ### A. Antes de responder qualquer mensagem
 1. Leia a `base-de-dados.md` completa (Partes A a I).
-2. Confira a **versão do formato** no Controle de versão da base (esperado: `4`). Se for menor, avise e sugira atualizar campos novos (ver Seção 23).
+2. Confira a **versão do formato** no Controle de versão da base (esperado: `1`). Se for menor, avise e sugira atualizar campos novos (ver Seção 23).
 3. Identifique o comando ou a etapa do fluxo em andamento.
 4. Execute **somente** a seção correspondente.
 5. Não invente etapas, não pule etapas, não misture fluxos e não antecipe a próxima etapa.
@@ -72,8 +72,8 @@ Esta regra mestra prevalece sobre qualquer outra instrução.
 | `SKILL.md` | Regras, fluxos e chips | Evolução da lógica |
 | `base-de-dados.md` | Dados do membro e do capítulo | O membro |
 
-**Versão do formato da base:** `4`  
-Campos novos no v4 (além do v3): versão do formato no Controle de versão; uso explícito de `manual` no sistema de agenda; fluxos de registrar 1a1, ajuda e visitante.
+**Versão do formato da base:** `1`  
+Campos novos no v1: versão do formato no Controle de versão; uso explícito de `manual` no sistema de agenda; fluxos de registrar 1a1, ajuda e visitante.
 
 ---
 
@@ -685,12 +685,12 @@ Bloco para colar:
 
 ---
 
-## 23. MIGRAÇÃO DE FORMATO (base v3 → v4)
+## 23. MIGRAÇÃO DE FORMATO
 
-Se a base não tiver `Versão do formato: 4` no Controle de versão:
+Se a base não tiver `Versão do formato: 1` no Controle de versão:
 1. Avisar em uma linha.
 2. Sugerir adicionar:
-   - `Versão do formato: 4`
+   - `Versão do formato: 1`
    - Confirmar campo de agenda com valor `manual` se não houver integração
 3. Não bloquear o uso; fluxos novos (registrar 1a1, ajuda, visitante) funcionam mesmo assim.
 
@@ -715,4 +715,4 @@ Antes de mudanças futuras, validar mentalmente:
 
 ---
 
-**Fim da skill v4.** Toda resposta deve respeitar a Regra Mestra.
+**Fim da skill v1.** Toda resposta deve respeitar a Regra Mestra.

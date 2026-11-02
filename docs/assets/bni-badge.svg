@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="BNI">
+  <circle cx="64" cy="64" r="64" fill="#CE2131"/>
+  <text x="64" y="76" text-anchor="middle"
+        font-family="Arial Black, Arial, Helvetica, sans-serif"
+        font-weight="900" font-size="36" letter-spacing="-1.5"
+        fill="#FFFFFF">BNi.</text>
+</svg>
